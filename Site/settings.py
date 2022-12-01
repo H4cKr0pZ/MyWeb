@@ -26,7 +26,7 @@ SECRET_KEY = '_^1@koze5hnw_g_$@_!7qecwb%&_!rwtd$j3kzyqb0nd0v0rs1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','h4ckr0pz.netlify.app']
+ALLOWED_HOSTS = ['127.0.0.1','localhost']
 
 
 # Application definition
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'WhiteNoise.middleware.WhiteNoiseMiddleware',
+#    'WhiteNoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
